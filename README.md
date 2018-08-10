@@ -65,13 +65,13 @@ Modify .spannerci.json configuration file to enable Spanner CI integration. The 
 The most important setting of this file is the path of the script that contains the example test. In the folder `examples/` can be found example test scripts for various use cases. Choose the one that you want to experiment with by defining the right path, as in the example below:
 
     { 
-      "username":"spanner", 
+      "username":"spannerci", 
       "project":"spanner-examples",
       "code_quality": false,
       "build_binary": false,
       "deploy": false,
       "tests": false,
-      "script": "examples/3. Complex Tests/11. Measure Total Power Consumption in Time Period/scenario.py"
+      "script": "examples/1. Basic Tests/GPIO/1. Set Digital Output/scenario.py"
     }
 
 ## Spanner Projects
