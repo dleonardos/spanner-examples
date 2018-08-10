@@ -1,7 +1,6 @@
 { 
-  "username":"spanner", 
-  "token":"jnSpnvMnlMycmt4r63rGEfX9GDSR5nqC",
-  "project":"spanner_final",
+  "username":"spannerci", 
+  "project":"spanner-examples",
   "code_quality": false,
   "build_binary": false,
   "deploy": false,
