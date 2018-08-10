@@ -59,6 +59,7 @@ Modify .spannerci.json configuration file to enable Spanner CI integration. The 
       "code_quality": false,
       "build_binary": false,
       "deploy": false,
+      "tests": false,
       "script": "path/to/script/myscript.py"
     }
     
