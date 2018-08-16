@@ -1,6 +1,4 @@
 { 
-  "username":"spannerci", 
-  "project":"spanner-examples",
   "code_quality": false,
   "build_binary": false,
   "deploy": false,
