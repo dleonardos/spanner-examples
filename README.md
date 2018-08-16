@@ -63,17 +63,7 @@ Modify .spannerci.json configuration file to enable Spanner CI integration. The 
       "script": "path/to/script/myscript.py"
     }
     
-The most important setting of this file is the path of the script that contains the example test. In the folder `examples/` can be found example test scripts for various use cases. Choose the one that you want to experiment with by defining the right path, as in the example below:
-
-    { 
-      "username":"spannerci", 
-      "project":"spanner-examples",
-      "code_quality": false,
-      "build_binary": false,
-      "deploy": false,
-      "tests": false,
-      "script": "examples/1. Basic Tests/GPIO/1. Set Digital Output/scenario.py"
-    }
+The most important setting of this file is the path of the script that contains the example test. In the folder `examples/` can be found example test scripts for various use cases. Choose the one that you want to experiment with by defining the right path.
 
 ## Spanner Projects
 Spanner supports the creation of one or more projects for working with different repositories. To create a new project:
