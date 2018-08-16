@@ -54,8 +54,6 @@ Note: that the account where the GitHub Spanner CI app is installed, must be the
 Modify .spannerci.json configuration file to enable Spanner CI integration. The structure of the file is shown below:
 
     {
-      "username":"", 
-      "project":"",
       "code_quality": false,
       "build_binary": false,
       "deploy": false,
