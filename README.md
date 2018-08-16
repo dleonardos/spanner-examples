@@ -95,7 +95,7 @@ Spanner executes each test script inside a virtual environment. For each run, a 
 
 ### Job Creation from Pull Request
 
-This will automatically trigger a Spanner CI Job on each Pull Request ***
+This will automatically trigger a Spanner CI Job on each Pull Request
 
 1. Click on the Pull request button in the Github Repository homepage.
 2. Create a new Pull request and wait for the notification messages delivered from the SpannerCI platform.
