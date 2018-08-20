@@ -3,5 +3,5 @@
   "build_binary": false,
   "deploy": false,
   "tests": false,
-  "script": "examples/1. Basic Tests/GPIO/1. Set Digital Output/scenario.py"
+  "script": "examples/basic-tests/GPIO/read-analog-input/scenario.py"
 }
