@@ -25,7 +25,7 @@ import time
 from Spanner import Spanner
 from Testboard import Testboard
 
-testboard = Testboard("tester_demo")
+testboard = Testboard("testboard_name")
 
 # Our Testboard's D3 Pin is connected to a power switching circuit that controls
 # the power going to the device. When we toggle it HIGH, the device will be
