@@ -19,8 +19,7 @@ import Device
 IFTTT_KEY = "hgql1kyuQEL-KJfSbP7v0v63TOphPTSLoE5nhxrfFa-"
 device = Device.Ifttt(IFTTT_KEY)
 
-TESTBOARD_ID = "200023001347343438323536"
-testboard = Testboard(TESTBOARD_ID)
+testboard = Testboard("testboard_name")
 
 # Our device's Output Pin will be connected to the Testboard's D7, making it our
 # Input Pin

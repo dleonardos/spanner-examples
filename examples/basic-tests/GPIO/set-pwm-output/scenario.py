@@ -16,10 +16,7 @@ import Testboard
 # Output Pin
 OUTPUT_PIN = "D0"
 
-TESTBOARD_ID = "200023001347343438323536"
-
-testboard = Testboard(TESTBOARD_ID)
-
+testboard = Testboard("testboard_name")
 
 def set_pwm_output():
     # In this example, we'll give it a 50% duty cycle. Our pwmWrite takes values
